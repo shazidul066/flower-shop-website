@@ -1,0 +1,63 @@
+/* common css */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin:0 150px;
+}
+
+
+/* Nav bar Css */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap:48px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+.nav-items li:nth-child(2) a, 
+.nav-items li:nth-child(3) a {
+    color: #8987A1;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.nav-items li:nth-child(1) a{
+    color:#252432 ;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+
+}
+.nav-items li:nth-child(4) a{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+
+/* Nav bar ender */
