@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(245, 248, 255);
 }
 
 
@@ -60,4 +61,47 @@ font-size: 16px;
 font-weight: 400;
 }
 
-/* Nav bar ender */
+/* Nav bar ended */
+
+
+
+/* Hero Banner */
+
+.banner{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    
+    
+}
+
+.banner p{
+    max-width: 570px;
+    padding-top: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.banner h3{
+    font-family: Noto Serif;
+font-size: 65px;
+font-weight: 700;
+line-height: 89px;
+
+}
+
+.orange-color{
+
+color: #E95A08;
+}
+
+.banner img{
+    display: block;
+   width: 570px;
+   
+}
+
