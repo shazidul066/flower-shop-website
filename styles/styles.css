@@ -105,3 +105,114 @@ color: #E95A08;
    
 }
 
+/* Banner section end */
+
+
+/* Plant-section */
+
+.plant-section{
+
+    margin-top: 120px;
+}
+.plant-section h3{
+    padding-bottom: 16px;
+
+}
+
+
+.plant-section .flower-card-container .flower-card{
+
+    margin-top: 49px;
+   
+    
+
+
+}
+.plant-section .flower-card-container .flower-card img{
+    display: block;
+}
+
+.plant-section .flower-card-container .flower-card .add-cart{
+
+    background-color:#E95A08;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 15px 50px 26px 50px;
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.plant-section .flower-card-container .flower-card .sample-title{
+    margin-top: 30px;
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+.plant-section .flower-card-container .flower-card .sample-price{
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 150%;
+    padding-bottom: 30px;
+}
+
+.flower-card-container{
+
+    display:grid;
+   grid-template-columns: repeat(4, minmax(220px, 1fr));
+   gap: 20px;
+
+}
+
+.flower-card{
+    display:grid;
+    justify-items: center;
+    max-width: 270px;
+}
+
+.plant-section{
+
+    text-align: center;
+}
+
+.plant-section-intro{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plant-section-intro h3{
+    font-family: Noto Serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.plant-section-intro .plant-description{
+    max-width: 888px ;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+
+    
+}
+
+/* our plant -section done */
