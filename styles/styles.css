@@ -146,6 +146,7 @@ color: #E95A08;
     display: flex;
     justify-content: center;
     text-align: center;
+    border: none;
 }
 
 .plant-section .flower-card-container .flower-card .sample-title{
@@ -399,3 +400,87 @@ cursor:pointer;
 
     font-size: larger;
   }
+
+
+
+  
+
+
+
+  /* join section */
+
+
+
+
+
+  .hero {
+    height: 100vh;
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: rgb(254, 254, 254);
+    max-width: 644px;
+    padding: 2rem;
+    background-color: transparent;
+}
+
+.hero-content h1 {
+    color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+ background-color: transparent;
+white-space: nowrap;
+padding-bottom:23px ;
+}
+
+
+.email-form {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.email-input {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: white;
+    color: #666;
+}
+
+
+
+.subscribe-btn {
+    padding: 15px 30px;
+    background: #e67e22;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+
